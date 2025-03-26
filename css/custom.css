@@ -1,19 +1,15 @@
 /* Navbar fixing  */
-.header-style-3 .header-nav .nav > li > a {
-    color: #212529;
+.is-fixed .logo-header {
+    height: 70px;
+    margin-top: 10px;
 }
 
-.header-style-3 .is-fixed.color-fill .main-bar {
-    background: #ffffff;
-    height: 130px;
+.header-nav {
+    position: relative;
+    padding: 0px;
+    z-index: 7;
+    display: flex !important
+;
+    justify-content: end;
+    height: 100px;
 }
-
-.logo-header img, .logo-footer img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-    padding-top: 20px;
-    margin-top: 20px;
-}
-

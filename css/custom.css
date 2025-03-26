@@ -59,3 +59,8 @@
 ::marker {
    display: none !important;
 }
+
+/* About us section  */
+.wt-separator.style-square.has-bg {
+    border-color: #2d3239;
+}

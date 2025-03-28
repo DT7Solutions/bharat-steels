@@ -244,6 +244,9 @@ jQuery(document).ready(function() {
 		margin:30,
 		nav:false,
 		dots: true,
+		autoplay: true,         
+		autoplayTimeout: 3000, 
+		autoplayHoverPause: true,
 		responsive:{
 			0:{
 				items:2
@@ -255,7 +258,7 @@ jQuery(document).ready(function() {
 				items:4
 			},
 			1000:{
-				items:5
+				items:4
 			}
 		}
 	})	

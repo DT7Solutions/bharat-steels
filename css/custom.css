@@ -24,6 +24,9 @@
 .footer-dark .footer-top h6 a {
     color: #1A1A1A;
 }
+.footer-dark .footer-top p a {
+    color: #1A1A1A;
+}
 .footer-dark .footer-top {
     background-color: rgba(255, 255, 255, 1);
 }
@@ -59,6 +62,7 @@
 .wt-footer-bot-right {
     text-align: right;
 }
+
 .site-button, 
 .site-button-secondry {
     color: #fff;
@@ -78,4 +82,15 @@
 /* why choose us section  */
 .icon-content p {
     text-align: justify;
+}
+/* contact us page  */
+.bg-secondry {
+    background-color: #800000;
+}
+.wt-icon-box-wraper.center {
+    text-align: center;
+    min-height: 183px;
+}
+.wt-icon-box-wraper {
+    min-height: 100px;
 }

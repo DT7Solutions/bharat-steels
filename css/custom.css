@@ -66,7 +66,7 @@
     text-align: right;
 }
 .site-footer li a i {
-    font-size: 20px;
+    font-size: 25px;
 
 }
 .widget {
@@ -75,6 +75,11 @@
 
 .widget_newsletter ul li a {
     color: #1A1A1A;
+    display: inline-flex;
+    align-items: center;
+}
+.widget_newsletter ul li:first-child a {
+    align-items: flex-start;
 }
 .widget_newsletter ul li a i {
     color: #800000;

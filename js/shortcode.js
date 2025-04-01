@@ -262,6 +262,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	})	
+	
 
 // Client logo Carousel-4   function by = owl.carousel.js ========================== //	
 

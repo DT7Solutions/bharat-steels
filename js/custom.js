@@ -275,6 +275,8 @@ All JavaScript fuctions Start
         loop:true,
 		margin:0,
 		nav:true,
+		autoplay: true,
+		autoplayTimeout: 2000,
 		dots: false,
 		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
 		responsive:{

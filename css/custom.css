@@ -4,6 +4,10 @@
     margin-top: 13px;
 }
 
+.header-style-1 .header-nav .nav {
+  margin-right: 55px;
+}
+
 .header-nav {
     position: relative;
     padding: 0px;
@@ -49,6 +53,10 @@
 }
 .footer-top {
     padding: 50px 0 0;
+}
+.constrot-strip{
+    background-image:url(../images/footer-strip1.png);
+    height: 13px;
 }
 
 .wt-footer-bot-left,
@@ -114,6 +122,10 @@
 }
 .wt-icon-box-wraper {
     min-height: 100px;
+}
+/* project section  */
+.services{
+    margin: 0 5%;
 }
 /* Recent blogs post  */
 .recent-post {

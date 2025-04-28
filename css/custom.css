@@ -162,3 +162,8 @@ img {
 img {
   max-width: none ;
 }
+@media only screen and (max-width: 575px){
+    .btn-col-last{
+        display: none;
+    }
+}

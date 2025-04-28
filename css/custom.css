@@ -162,6 +162,35 @@ img {
 img {
   max-width: none ;
 }
+@media only screen and (max-width: 991px) {
+    .header-style-1.mobile-sider-drawer-menu .header-nav {
+        position: fixed;
+        width: 200px !important;
+        z-index: 999;
+        height: 100vh !important;
+        overflow-y: inherit !important;
+        left: -250px;
+        top: 0px;
+        transition: all 0.5s linear;
+        background-color: #fff;
+    }
+    .site-button, .site-button-secondry {
+        color: #fff;
+        padding: 8px 41px;
+    }
+    .header-nav .nav>li.active>a{
+        color: #800000;
+    }
+    .recent-post .con {
+        padding-left: 9%;
+        margin-left: 2px;
+    }
+    .recent-post .con1 {
+        padding-left: 9%;
+        margin-left: -28px;
+    }
+}
+
 @media only screen and (max-width: 575px){
     .btn-col-last{
         display: none;

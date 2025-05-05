@@ -258,7 +258,7 @@ jQuery(document).ready(function() {
 				items:4
 			},
 			1000:{
-				items:4
+				items:5
 			}
 		}
 	})	
@@ -271,6 +271,8 @@ jQuery(document).ready(function() {
 		margin:30,
 		nav:false,
 		dots: true,
+		autoplay: true,         
+		autoplayTimeout: 5000, 
 		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
 		responsive:{
 			0:{

@@ -8,6 +8,18 @@
   margin-right: 55px;
 }
 
+.header-nav .navbar-nav a:hover {
+    color: #001849 !important;
+}
+
+.header-nav .navbar-nav a {
+    color: #1A1A1A !important;
+    text-decoration: none;
+}
+a:hover{
+    color: #001849 !important ;
+}
+
 .header-nav {
     position: relative;
     padding: 0px;
@@ -16,6 +28,10 @@
 ;
     justify-content: end;
     height: 100px;
+}
+/* bread crumb  */
+.wt-breadcrumb li a{
+    color: #001849;
 }
 /* Footer color changing  */
 
@@ -77,10 +93,13 @@
     font-size: 25px;
 
 }
+.copyrights-text a {
+    color: #000;
+}
 /* button */
 button.scroltop {
     color: #fff !important;
-    background: #800000;
+    background: #001849;
 }
 .widget {
     margin-bottom: 20px;
@@ -95,7 +114,7 @@ button.scroltop {
     align-items: flex-start;
 }
 .widget_newsletter ul li a i {
-    color: #800000;
+    color: #001849;
 }
 .site-button, 
 .site-button-secondry {
@@ -119,7 +138,7 @@ button.scroltop {
 }
 /* contact us page  */
 .bg-secondry {
-    background-color: #800000;
+    background-color: #001849;
 }
 .wt-icon-box-wraper.center {
     text-align: center;
@@ -144,7 +163,7 @@ button.scroltop {
     align-items: center;
 }
 .recent-post i {
-    color: #800000
+    color: #001849
 }
 img {
     vertical-align: middle;
@@ -179,7 +198,7 @@ img {
         padding: 8px 41px;
     }
     .header-nav .nav>li.active>a{
-        color: #800000;
+        color: #001849;
     }
     .recent-post .con {
         padding-left: 9%;

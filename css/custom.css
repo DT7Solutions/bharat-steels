@@ -36,6 +36,12 @@ a:hover{
 .wt-breadcrumb li a{
     color: #001849;
 }
+/* products tmt bars  */
+.owl-carousel .ow-client-logo img {
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+}
 /* Footer color changing  */
 
 .footer-dark .footer-top p{
@@ -138,6 +144,21 @@ button.scroltop {
 /* why choose us section  */
 .icon-content p {
     text-align: justify;
+}
+/* product details page  */
+.internaltabs {
+    display: flex;
+    flex-direction: column;
+}
+.internaltabs .nav-tabs {
+    display: flex;
+    width: 100% !important;
+}
+.internaltabs .nav-tabs .nav-item {
+    width: auto !important;
+}
+.internaltabs .tab-content {
+    margin-left: 0 !important;
 }
 /* contact us page  */
 .bg-secondry {

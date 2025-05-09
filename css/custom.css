@@ -42,8 +42,20 @@ a:hover{
     width: 200px;
     object-fit: contain;
 }
+/* table  */
+.table>:not(caption)>*>* {
+    background-color: #fff;
+}
 /* Footer color changing  */
-
+.call-to-action-logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.call-to-action-logos img {
+    background-color: #fff;
+    min-height: 75px;
+}
 .footer-dark .footer-top p{
     color: #1A1A1A;
 }

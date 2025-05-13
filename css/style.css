@@ -608,10 +608,10 @@ Version: 2.0
 /*======================================
 1. GENERAL 
 ======================================*/
-@media only screen and (min-width: 1200px){
-	.container, .container-lg, .container-md, .container-sm, .container-xl {
-		max-width: 1170px;
-	}
+@media only screen and (min-width: 1400px){
+    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+        max-width:1320px
+    }
 }
 
 body {
@@ -3654,7 +3654,7 @@ ol.list-num-count.list-outline-none > li:before {
 }
 /*7.2 testimonial 1*/
 .owl-carousel.testimonial-one .testimonial-1{
-	max-width: 600px;
+	max-width: 720px;
 	margin: 0px auto;
 }
 
@@ -4586,6 +4586,7 @@ ol.list-num-count.list-outline-none > li:before {
 .social-icons.social-radius.social-darkest a:hover{
 	background-color:#001849;
 	color:#4a4c4c;
+	color: #fff;
 }
 .social-icons.social-radius a {
 	border-radius: 100px;
@@ -5575,9 +5576,9 @@ input[type=radio]:checked + label:before {
 }
 /*19.8 widget tags-list*/
 .widget_tag_cloud a {
-	padding:12px 14px;
+	padding:10px 12px;
 	background-color:#f6f7f8;
-	font-size:14px;
+	font-size:12px;
 	display:inline-block;
 	margin:0 0 5px;
 	color:#333; 
@@ -6081,6 +6082,11 @@ blockquote:before {
 .blog-post {
 	position:relative;
 	margin-bottom:30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 6px;
+}
+.blog-post .wt-post-info {
+	padding: 5%;
 }
 .wt-post-title{
 	margin-bottom:10px;
@@ -6135,6 +6141,7 @@ blockquote:before {
     font-size: 16px;
     font-style: italic;
 	text-decoration:underline;	
+	color: #001849;
 }
 .wt-post-tags {
 	padding-top:10px;
@@ -6561,7 +6568,7 @@ margin-bottom:30px;
 -------------------------------------*/
 .date-style-3 .post-description-area {
  position:relative;
- padding-top:30px;
+ padding: 2.5%;
 }
 .post-media-empty.date-style-2 .post-description-area {
  padding-top:0;
@@ -11942,7 +11949,7 @@ ol.commentlist li::after {
 
 .wt-mid-page{
 	position: relative;
-	max-width: 770px;
+	max-width: 1020px;
 	margin: 0px auto;
 }
 
